@@ -8,8 +8,8 @@ def calc(x,y,z):
   elif y=="*":
     return(x*z)
   else:
-    return("oops!")
-print("comands:+, - , / , * .")
+    return("Oops!")
+print("Commands: +, - , / , * ")
 ask=input().split()
-all=calc(int(ask[0]),ask[1],int(ask[2]))
+all=calc(float(ask[0]),ask[1],float(ask[2]))
 print(all)
