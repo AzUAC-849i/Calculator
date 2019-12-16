@@ -7,9 +7,13 @@ def calc(x,y,z):
     return(x/z)
   elif y=="*":
     return(x*z)
+  elif y=="//":
+    return(x//z)
+  elif y=="%":
+    return(x%z)
   else:
     return("oops!")
-print("comands:+, - , / , * .")
+print("comands:+, - , / , * ,//,%.")
 ask=input().split()
 all=calc(int(ask[0]),ask[1],int(ask[2]))
 print(all)
