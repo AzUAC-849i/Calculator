@@ -2,9 +2,9 @@ a= "first_number"
 b= "sec_number"
 
 print ("your first number is" + str(a))
-print ("your sec number is" + str(b))
+print ("your second number is" + str(b))
 
-print('''make your coice 
+print('''make your choice 
       print 1 for addition 
       print 2 for subtration
       print 3 for multiplying
